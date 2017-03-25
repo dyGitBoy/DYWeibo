@@ -38,6 +38,7 @@
 		CBCFF0AB1E86CD2C00C5EFB2 /* DYWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCFF0AF1E86CD2C00C5EFB2 /* DYWeiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYWeiboTests.swift; sourceTree = "<group>"; };
 		CBCFF0B11E86CD2C00C5EFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE64F181E86DAFC00E30E9E /* DYWeibo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DYWeibo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 				CBCFF09E1E86CD2C00C5EFB2 /* Main.storyboard */,
 				CBCFF0A11E86CD2C00C5EFB2 /* Assets.xcassets */,
 				CBCFF0A61E86CD2C00C5EFB2 /* Info.plist */,
+				CBE64F181E86DAFC00E30E9E /* DYWeibo-Bridging-Header.h */,
 			);
 			path = DYWeibo;
 			sourceTree = "<group>";
@@ -171,6 +173,7 @@
 					CBCFF0961E86CD2C00C5EFB2 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = BD7Z69BDJH;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					CBCFF0AA1E86CD2C00C5EFB2 = {
@@ -404,12 +407,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BD7Z69BDJH;
 				INFOPLIST_FILE = DYWeibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yideng.DYWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DYWeibo/DYWeibo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -420,12 +426,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BD7Z69BDJH;
 				INFOPLIST_FILE = DYWeibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yideng.DYWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DYWeibo/DYWeibo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
