@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.4.0)
+  - WeiboSDK (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - WeiboSDK (from `https://github.com/sinaweibosdk/weibo_ios_sdk.git`)
+
+EXTERNAL SOURCES:
+  WeiboSDK:
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+CHECKOUT OPTIONS:
+  WeiboSDK:
+    :commit: 3daf7147ddd0fde3b04a61d8d94327d41d0c239c
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  WeiboSDK: bceab625ec59b7039ba721cc4ba9f5868804f63e
+
+PODFILE CHECKSUM: 872eda658925068753a5bee6fe4f10adbdf425ec
+
+COCOAPODS: 1.2.0
