@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6F2506D408B5A14418C76D79 /* Pods_DYWeibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C90DC553E22955697FEADA /* Pods_DYWeibo.framework */; };
+		CB2056711E93CCEB0032FA5B /* Null.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2056701E93CCEB0032FA5B /* Null.storyboard */; };
 		CB5714021E93FE49008C7533 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5714011E93FE49008C7533 /* MainViewController.swift */; };
 		CB5714041E93FE7F008C7533 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5714031E93FE7F008C7533 /* DiscoverViewController.swift */; };
 		CB5714061E93FE92008C7533 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5714051E93FE92008C7533 /* HomeViewController.swift */; };
 		CB5714081E93FEAA008C7533 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5714071E93FEAA008C7533 /* MessageViewController.swift */; };
 		CB57140A1E93FEB4008C7533 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5714091E93FEB4008C7533 /* ProfileViewController.swift */; };
+		CB57140E1E93FEB4008C7533 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB57140D1E93FEB4008C7533 /* Home.storyboard */; };
+		CB5714101E93FEB4008C7533 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB57140F1E93FEB4008C7533 /* Message.storyboard */; };
+		CB5714141E93FEB4008C7533 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5714131E93FEB4008C7533 /* Discover.storyboard */; };
+		CB5714161E93FEB4008C7533 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5714151E93FEB4008C7533 /* Profile.storyboard */; };
 		CBCFF09B1E86CD2C00C5EFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCFF09A1E86CD2C00C5EFB2 /* AppDelegate.swift */; };
 		CBCFF0A01E86CD2C00C5EFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCFF09E1E86CD2C00C5EFB2 /* Main.storyboard */; };
 		CBCFF0A21E86CD2C00C5EFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCFF0A11E86CD2C00C5EFB2 /* Assets.xcassets */; };
@@ -33,11 +38,16 @@
 		15C90DC553E22955697FEADA /* Pods_DYWeibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWeibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C10787399F7131F3774473 /* Pods-DYWeibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWeibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYWeibo/Pods-DYWeibo.debug.xcconfig"; sourceTree = "<group>"; };
 		6EF0D8DB6BD466B3BE8FCA72 /* Pods-DYWeibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWeibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYWeibo/Pods-DYWeibo.release.xcconfig"; sourceTree = "<group>"; };
+		CB2056701E93CCEB0032FA5B /* Null.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Null.storyboard; sourceTree = "<group>"; };
 		CB5714011E93FE49008C7533 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CB5714031E93FE7F008C7533 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		CB5714051E93FE92008C7533 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CB5714071E93FEAA008C7533 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		CB5714091E93FEB4008C7533 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CB57140D1E93FEB4008C7533 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CB57140F1E93FEB4008C7533 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		CB5714131E93FEB4008C7533 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		CB5714151E93FEB4008C7533 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		CBCFF0971E86CD2C00C5EFB2 /* DYWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCFF09A1E86CD2C00C5EFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBCFF09F1E86CD2C00C5EFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,6 +102,7 @@
 		CB5713FC1E93FD69008C7533 /* Discover(发现) */ = {
 			isa = PBXGroup;
 			children = (
+				CB5714131E93FEB4008C7533 /* Discover.storyboard */,
 				CB5714031E93FE7F008C7533 /* DiscoverViewController.swift */,
 			);
 			path = "Discover(发现)";
@@ -100,6 +111,7 @@
 		CB5713FD1E93FD69008C7533 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				CB57140D1E93FEB4008C7533 /* Home.storyboard */,
 				CB5714051E93FE92008C7533 /* HomeViewController.swift */,
 			);
 			path = "Home(首页)";
@@ -109,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				CB5714011E93FE49008C7533 /* MainViewController.swift */,
+				CB2056701E93CCEB0032FA5B /* Null.storyboard */,
 			);
 			path = "Main(主要)";
 			sourceTree = "<group>";
@@ -116,6 +129,7 @@
 		CB5713FF1E93FD69008C7533 /* Message(消息) */ = {
 			isa = PBXGroup;
 			children = (
+				CB57140F1E93FEB4008C7533 /* Message.storyboard */,
 				CB5714071E93FEAA008C7533 /* MessageViewController.swift */,
 			);
 			path = "Message(消息)";
@@ -124,6 +138,7 @@
 		CB5714001E93FD69008C7533 /* Profile(我) */ = {
 			isa = PBXGroup;
 			children = (
+				CB5714151E93FEB4008C7533 /* Profile.storyboard */,
 				CB5714091E93FEB4008C7533 /* ProfileViewController.swift */,
 			);
 			path = "Profile(我)";
@@ -268,8 +283,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB57140E1E93FEB4008C7533 /* Home.storyboard in Resources */,
+				CB2056711E93CCEB0032FA5B /* Null.storyboard in Resources */,
 				CBCFF0A21E86CD2C00C5EFB2 /* Assets.xcassets in Resources */,
+				CB5714101E93FEB4008C7533 /* Message.storyboard in Resources */,
 				CBCFF0A01E86CD2C00C5EFB2 /* Main.storyboard in Resources */,
+				CB5714161E93FEB4008C7533 /* Profile.storyboard in Resources */,
+				CB5714141E93FEB4008C7533 /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
