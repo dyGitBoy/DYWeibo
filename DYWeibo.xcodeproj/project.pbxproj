@@ -18,6 +18,7 @@
 		CB5714101E93FEB4008C7533 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB57140F1E93FEB4008C7533 /* Message.storyboard */; };
 		CB5714141E93FEB4008C7533 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5714131E93FEB4008C7533 /* Discover.storyboard */; };
 		CB5714161E93FEB4008C7533 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5714151E93FEB4008C7533 /* Profile.storyboard */; };
+		CB588B2E1E953449009D5457 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB588B2D1E953449009D5457 /* UIButton-Extension.swift */; };
 		CBCFF09B1E86CD2C00C5EFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCFF09A1E86CD2C00C5EFB2 /* AppDelegate.swift */; };
 		CBCFF0A01E86CD2C00C5EFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCFF09E1E86CD2C00C5EFB2 /* Main.storyboard */; };
 		CBCFF0A21E86CD2C00C5EFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCFF0A11E86CD2C00C5EFB2 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		CB57140F1E93FEB4008C7533 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
 		CB5714131E93FEB4008C7533 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
 		CB5714151E93FEB4008C7533 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		CB588B2D1E953449009D5457 /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
 		CBCFF0971E86CD2C00C5EFB2 /* DYWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCFF09A1E86CD2C00C5EFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBCFF09F1E86CD2C00C5EFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		CB5713FB1E93FD69008C7533 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CB588B291E95339D009D5457 /* Tools */,
 				CB5713FE1E93FD69008C7533 /* Main(主要) */,
 				CB5713FC1E93FD69008C7533 /* Discover(发现) */,
 				CB5713FD1E93FD69008C7533 /* Home(首页) */,
@@ -142,6 +145,14 @@
 				CB5714091E93FEB4008C7533 /* ProfileViewController.swift */,
 			);
 			path = "Profile(我)";
+			sourceTree = "<group>";
+		};
+		CB588B291E95339D009D5457 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CB588B2D1E953449009D5457 /* UIButton-Extension.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		CBCFF08E1E86CD2C00C5EFB2 = {
@@ -356,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB5714061E93FE92008C7533 /* HomeViewController.swift in Sources */,
+				CB588B2E1E953449009D5457 /* UIButton-Extension.swift in Sources */,
 				CB5714021E93FE49008C7533 /* MainViewController.swift in Sources */,
 				CB5714041E93FE7F008C7533 /* DiscoverViewController.swift in Sources */,
 				CB57140A1E93FEB4008C7533 /* ProfileViewController.swift in Sources */,
