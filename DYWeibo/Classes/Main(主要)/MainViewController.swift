@@ -19,10 +19,21 @@ class MainViewController: UITabBarController {
     
 }
 
+// MARK:- set up UI
 extension MainViewController {
     fileprivate func setupComposeBtn() {
         tabBar.addSubview(composeBtn);
         composeBtn.center = CGPoint.init(x: tabBar.center.x, y: tabBar.bounds.size.height * 0.5)
+        
+        composeBtn.addTarget(self, action: #selector(composeBtnClick), for: .touchUpInside)
     }
     
+    
+}
+
+// MARK:- listen events
+extension MainViewController {
+    @objc fileprivate func composeBtnClick() {
+        print("composeBtnClick")
+    }
 }

@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="Pva-OJ-ZOD"/>
+                    <tabBarItem key="tabBarItem" enabled="NO" title="" id="Pva-OJ-ZOD"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HIg-gf-2At" userLabel="First Responder" sceneMemberID="firstResponder"/>
