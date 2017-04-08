@@ -27,8 +27,6 @@ extension MainViewController {
         
         composeBtn.addTarget(self, action: #selector(composeBtnClick), for: .touchUpInside)
     }
-    
-    
 }
 
 // MARK:- listen events

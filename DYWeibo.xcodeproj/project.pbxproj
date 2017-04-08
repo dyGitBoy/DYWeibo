@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F2506D408B5A14418C76D79 /* Pods_DYWeibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C90DC553E22955697FEADA /* Pods_DYWeibo.framework */; };
+		CB0845661E9945C700DED6B7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0845651E9945C700DED6B7 /* BaseViewController.swift */; };
 		CB2056711E93CCEB0032FA5B /* Null.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2056701E93CCEB0032FA5B /* Null.storyboard */; };
 		CB5714021E93FE49008C7533 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5714011E93FE49008C7533 /* MainViewController.swift */; };
 		CB5714041E93FE7F008C7533 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5714031E93FE7F008C7533 /* DiscoverViewController.swift */; };
@@ -19,6 +20,8 @@
 		CB5714141E93FEB4008C7533 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5714131E93FEB4008C7533 /* Discover.storyboard */; };
 		CB5714161E93FEB4008C7533 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5714151E93FEB4008C7533 /* Profile.storyboard */; };
 		CB588B2E1E953449009D5457 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB588B2D1E953449009D5457 /* UIButton-Extension.swift */; };
+		CB588B311E95381B009D5457 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB588B301E95381B009D5457 /* VisitorView.swift */; };
+		CB588B331E9538CC009D5457 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB588B321E9538CC009D5457 /* VisitorView.xib */; };
 		CBCFF09B1E86CD2C00C5EFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCFF09A1E86CD2C00C5EFB2 /* AppDelegate.swift */; };
 		CBCFF0A01E86CD2C00C5EFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCFF09E1E86CD2C00C5EFB2 /* Main.storyboard */; };
 		CBCFF0A21E86CD2C00C5EFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCFF0A11E86CD2C00C5EFB2 /* Assets.xcassets */; };
@@ -39,6 +42,7 @@
 		15C90DC553E22955697FEADA /* Pods_DYWeibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWeibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C10787399F7131F3774473 /* Pods-DYWeibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWeibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYWeibo/Pods-DYWeibo.debug.xcconfig"; sourceTree = "<group>"; };
 		6EF0D8DB6BD466B3BE8FCA72 /* Pods-DYWeibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYWeibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYWeibo/Pods-DYWeibo.release.xcconfig"; sourceTree = "<group>"; };
+		CB0845651E9945C700DED6B7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CB2056701E93CCEB0032FA5B /* Null.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Null.storyboard; sourceTree = "<group>"; };
 		CB5714011E93FE49008C7533 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CB5714031E93FE7F008C7533 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 		CB5714131E93FEB4008C7533 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
 		CB5714151E93FEB4008C7533 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		CB588B2D1E953449009D5457 /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		CB588B301E95381B009D5457 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		CB588B321E9538CC009D5457 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
 		CBCFF0971E86CD2C00C5EFB2 /* DYWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCFF09A1E86CD2C00C5EFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBCFF09F1E86CD2C00C5EFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -123,6 +129,7 @@
 		CB5713FE1E93FD69008C7533 /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
+				CB588B2F1E9537EE009D5457 /* Visitor */,
 				CB5714011E93FE49008C7533 /* MainViewController.swift */,
 				CB2056701E93CCEB0032FA5B /* Null.storyboard */,
 			);
@@ -153,6 +160,16 @@
 				CB588B2D1E953449009D5457 /* UIButton-Extension.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		CB588B2F1E9537EE009D5457 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				CB588B301E95381B009D5457 /* VisitorView.swift */,
+				CB588B321E9538CC009D5457 /* VisitorView.xib */,
+				CB0845651E9945C700DED6B7 /* BaseViewController.swift */,
+			);
+			path = Visitor;
 			sourceTree = "<group>";
 		};
 		CBCFF08E1E86CD2C00C5EFB2 = {
@@ -297,6 +314,7 @@
 				CB57140E1E93FEB4008C7533 /* Home.storyboard in Resources */,
 				CB2056711E93CCEB0032FA5B /* Null.storyboard in Resources */,
 				CBCFF0A21E86CD2C00C5EFB2 /* Assets.xcassets in Resources */,
+				CB588B331E9538CC009D5457 /* VisitorView.xib in Resources */,
 				CB5714101E93FEB4008C7533 /* Message.storyboard in Resources */,
 				CBCFF0A01E86CD2C00C5EFB2 /* Main.storyboard in Resources */,
 				CB5714161E93FEB4008C7533 /* Profile.storyboard in Resources */,
@@ -371,8 +389,10 @@
 				CB5714021E93FE49008C7533 /* MainViewController.swift in Sources */,
 				CB5714041E93FE7F008C7533 /* DiscoverViewController.swift in Sources */,
 				CB57140A1E93FEB4008C7533 /* ProfileViewController.swift in Sources */,
+				CB0845661E9945C700DED6B7 /* BaseViewController.swift in Sources */,
 				CB5714081E93FEAA008C7533 /* MessageViewController.swift in Sources */,
 				CBCFF09B1E86CD2C00C5EFB2 /* AppDelegate.swift in Sources */,
+				CB588B311E95381B009D5457 /* VisitorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
