@@ -20,6 +20,13 @@ class VisitorView: UIView {
         return Bundle.main.loadNibNamed("VisitorView", owner: nil, options: nil)!.first as! VisitorView
     }
     
+    // MARK:- 自定义函数
+    func setupVisitorViewInfo(_ iconName : String, title : String) {
+        iconView.image = UIImage(named: iconName)
+        tipLabel.text = title
+        rotationView.isHidden = true
+    }
+    
     func addRotationAnimation() {
         let rotationAnimation = CABasicAnimation(keyPath: "transform.rotation.z")
         
