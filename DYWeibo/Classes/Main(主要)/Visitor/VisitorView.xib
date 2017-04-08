@@ -80,6 +80,13 @@
                 <constraint firstItem="DWh-SO-UyD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pjs-0O-j5z"/>
                 <constraint firstItem="IOC-X8-TGw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qev-R8-Qts"/>
             </constraints>
+            <connections>
+                <outlet property="iconView" destination="6p9-1b-9Tp" id="d3g-QR-WnN"/>
+                <outlet property="loginButton" destination="3hD-br-aHP" id="JdW-d8-Dni"/>
+                <outlet property="registerButton" destination="Ncc-rv-HME" id="GPF-vd-sOA"/>
+                <outlet property="rotationView" destination="IOC-X8-TGw" id="qXY-Kl-MTB"/>
+                <outlet property="tipLabel" destination="VGf-YS-IxL" id="6zA-th-ehu"/>
+            </connections>
             <point key="canvasLocation" x="33.5" y="147.5"/>
         </view>
     </objects>
