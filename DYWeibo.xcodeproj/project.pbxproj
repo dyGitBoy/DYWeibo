@@ -22,6 +22,8 @@
 		CB588B2E1E953449009D5457 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB588B2D1E953449009D5457 /* UIButton-Extension.swift */; };
 		CB588B311E95381B009D5457 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB588B301E95381B009D5457 /* VisitorView.swift */; };
 		CB588B331E9538CC009D5457 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB588B321E9538CC009D5457 /* VisitorView.xib */; };
+		CB90C4811E9A5B310044BC20 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90C4801E9A5B310044BC20 /* UIBarButtonItem+Extension.swift */; };
+		CB90C4841E9A8F220044BC20 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90C4831E9A8F220044BC20 /* TitleButton.swift */; };
 		CBCFF09B1E86CD2C00C5EFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCFF09A1E86CD2C00C5EFB2 /* AppDelegate.swift */; };
 		CBCFF0A01E86CD2C00C5EFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCFF09E1E86CD2C00C5EFB2 /* Main.storyboard */; };
 		CBCFF0A21E86CD2C00C5EFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCFF0A11E86CD2C00C5EFB2 /* Assets.xcassets */; };
@@ -56,6 +58,8 @@
 		CB588B2D1E953449009D5457 /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
 		CB588B301E95381B009D5457 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		CB588B321E9538CC009D5457 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
+		CB90C4801E9A5B310044BC20 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		CB90C4831E9A8F220044BC20 /* TitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
 		CBCFF0971E86CD2C00C5EFB2 /* DYWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCFF09A1E86CD2C00C5EFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBCFF09F1E86CD2C00C5EFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -157,7 +161,8 @@
 		CB588B291E95339D009D5457 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				CB588B2D1E953449009D5457 /* UIButton-Extension.swift */,
+				CB90C4821E9A8F000044BC20 /* Extensions */,
+				CB90C4831E9A8F220044BC20 /* TitleButton.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -170,6 +175,15 @@
 				CB0845651E9945C700DED6B7 /* BaseViewController.swift */,
 			);
 			path = Visitor;
+			sourceTree = "<group>";
+		};
+		CB90C4821E9A8F000044BC20 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB588B2D1E953449009D5457 /* UIButton-Extension.swift */,
+				CB90C4801E9A5B310044BC20 /* UIBarButtonItem+Extension.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		CBCFF08E1E86CD2C00C5EFB2 = {
@@ -386,7 +400,9 @@
 			files = (
 				CB5714061E93FE92008C7533 /* HomeViewController.swift in Sources */,
 				CB588B2E1E953449009D5457 /* UIButton-Extension.swift in Sources */,
+				CB90C4811E9A5B310044BC20 /* UIBarButtonItem+Extension.swift in Sources */,
 				CB5714021E93FE49008C7533 /* MainViewController.swift in Sources */,
+				CB90C4841E9A8F220044BC20 /* TitleButton.swift in Sources */,
 				CB5714041E93FE7F008C7533 /* DiscoverViewController.swift in Sources */,
 				CB57140A1E93FEB4008C7533 /* ProfileViewController.swift in Sources */,
 				CB0845661E9945C700DED6B7 /* BaseViewController.swift in Sources */,
